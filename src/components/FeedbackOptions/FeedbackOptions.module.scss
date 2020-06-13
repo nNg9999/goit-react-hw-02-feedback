@@ -1,0 +1,30 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 200px;
+
+  .button {
+    text-transform: capitalize;
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid rgb(170, 170, 170);
+
+
+    &:hover {
+      background-color: #007AFF;
+      border: none;
+      outline: 0;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+  }
+}
